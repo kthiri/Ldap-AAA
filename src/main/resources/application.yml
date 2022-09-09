@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: "LDAP lookup"
+
+ldap:
+  url: ldap://190.144.111.186:4489
+  userDn: cn=John Espinal,ou=people,dc=itksoluciones,dc=com
+  password: HbK?;G,,QP
+  base: dc=itksoluciones,dc=com
+  clean: true
